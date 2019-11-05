@@ -1,1 +1,3 @@
-# twitter-data-collection
+# Collecting data from Twitter
+
+This repo documents a collection of scripts I use to execute large-scale data collection projects from Twitter. My experience of collecting data has crystallized into a set of rules for myself that is collated [here](https://github.com/pgurazada/insta-data-collection). Essentially, we use low RAM VM workers to continuously collect data, copy collected data to a blob storage and shutdown once complete.
